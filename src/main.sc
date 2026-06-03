@@ -1,9 +1,3 @@
-theme: /
-
-state: Start
-q!: *
-go!: /hello
-
 state: /hello
 q!: привет || здравствуй || hello || hi || добрый день
 a: Привет! Я бот-помощник.
