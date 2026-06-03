@@ -1,6 +1,6 @@
 theme: /
 
-```
+
 state: /hello
     q!: привет || здравствуй || hello || hi || добрый день
     a: Привет! Я бот-помощник.
@@ -16,4 +16,4 @@ state: /currency
 state: /NoMatch
     event!: noMatch
     a: Извините, я не понял запрос.
-```
+
