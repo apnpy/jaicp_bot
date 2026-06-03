@@ -3,7 +3,7 @@ require: slotfilling/slotFilling.sc
 theme: /
 
 require: intents.sc
-  file: classifier/intents.sc
+  file: src/intents.sc
 
 theme: /
 
