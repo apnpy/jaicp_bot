@@ -1,14 +1,3 @@
-require: slotfilling/slotFilling.sc
-  module = sys.zb-common
-theme: /
-
-require: intents.sc
-  file: src/intents.sc
-
-theme: /
-
- require: intents.sc
-
 theme: /
 
 state: Start
@@ -16,16 +5,16 @@ q!: *
 go!: /hello
 
 state: /hello
-intent = Hello
-a: Привет! Я бот-помощник. Могу рассказать о погоде и курсах валют.
+q!: привет || здравствуй || hello || hi || добрый день
+a: Привет! Я бот-помощник.
 
 state: /weather
-intent = Weather
+q!: погода || какая погода || прогноз погоды || будет дождь || что с погодой
 a: Сегодня ожидается хорошая погода.
 
 state: /currency
-intent = Currency
-a: Сейчас курс валют доступен на сайте Центробанка.
+q!: курс валют || доллар || евро || курс доллара || курс евро
+a: Актуальный курс валют доступен на сайте Центробанка.
 
 state: /NoMatch
 event!: noMatch
