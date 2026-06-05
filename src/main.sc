@@ -1,7 +1,7 @@
 theme: /
 
     state: /hello
-        q!: start
+        q!: *start
         q!: привет *
         q!: * привет
         q!: здравствуй *
