@@ -1,6 +1,7 @@
 theme: /
 
     state: hello
+        q!: *start
         q!: привет
         q!: здравств*
         q!: добрый день
